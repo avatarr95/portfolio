@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
+import { NavLink } from 'react-router-dom';
+import './App.scss';
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
+        <Layout>
+          <Header className="header-color" title="Title" scroll>
+            <Navigation>
+              <NavLink to="/resume">Resume</NavLink>
+              <NavLink to="/aboutme">About Me</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
+            </Navigation>
+          </Header>
+          <Drawer title="Title">
+            <Navigation>
+              <NavLink to="/resume">Resume</NavLink>
+              <NavLink to="/aboutme">About Me</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main />
+          </Content>
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;
