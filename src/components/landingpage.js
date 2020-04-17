@@ -15,7 +15,7 @@ const Landing = () => (
         <img src={PiotrImage} alt="avatar" className="avatar-img" />
 
         <div className="banner-text">
-          <h1>Full Stack Web Dev</h1>
+          <h1>Full Stack Web Developer</h1>
           <hr />
 
           <p className="technologies">
@@ -27,16 +27,24 @@ const Landing = () => (
 
           <div className="social-links">
             {/* Linked In */}
-            <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/piotrzawierucha95/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fa fa-linkedin-square" aria-hidden="true" />
             </a>
             {/* GitHub */}
-            <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+            <a href="https://github.com/avatarr95/" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-github-square" aria-hidden="true" />
             </a>
 
             {/* Facebook */}
-            <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://www.facebook.com/pzawierucha"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fa fa-facebook-square" aria-hidden="true" />
             </a>
           </div>
