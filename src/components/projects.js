@@ -5,6 +5,8 @@ import Gallery, { Images } from './projectImages';
 import SoccerImage from '../assets/images/soccer.jpg';
 import ResumeImage from '../assets/images/Hired.png';
 import PythonImage from '../assets/images/python.jpg';
+import ReduxImage from '../assets/images/redux.jpg';
+import ReactImage from '../assets/images/react_logo.jpg';
 
 class Projects extends Component {
   state = { activeTab: 0, activePhoto: 0 };
@@ -42,8 +44,6 @@ class Projects extends Component {
       ...this.state,
       activePhoto: PhotoId,
     });
-
-    console.log(PhotoId);
   };
 
   toggleCategories = () => {
@@ -94,11 +94,23 @@ class Projects extends Component {
       const FilledData = this.fillTheData(PythonProjects);
       return <>{FilledData}</>;
     } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>This is VueJS</h1>
-        </div>
-      );
+      const ReactProjects = [
+        {
+          name: 'This website',
+          description: 'The website you are currently on',
+          link: 'https://github.com/avatarr95/portfolio',
+          image: ReactImage,
+        },
+        {
+          name: 'React/Redux Notes',
+          description: 'A simple project which allows you to add and remove your notes',
+          link: 'https://github.com/avatarr95/ReduxNotes',
+          image: ReduxImage,
+        },
+      ];
+
+      const FilledData = this.fillTheData(ReactProjects);
+      return <>{FilledData}</>;
     }
   };
   render() {
