@@ -1,41 +1,21 @@
-.header-color {
-  // background: #833ab4;
-  // background: -webkit-linear-gradient(
-  //   to right,
-  //   #fcb045,
-  //   #fd1d1d,
-  //   #833ab4
-  // );
-  // background: linear-gradient(
-  //   to right,
-  //   #fcb045,
-  //   #fd1d1d,
-  //   #833ab4
-  // ); 
-  background: #1f4037;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.headerColor {
+  background: #1f4037; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #99f2c8,
+    #1f4037
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid {
-  // background: #833ab4; 
-  // background: -webkit-linear-gradient(
-  //   to right,
-  //   #fcb045,
-  //   #fd1d1d,
-  //   #833ab4
-  // ); 
-  // background: linear-gradient(
-  //   to right,
-  //   #fcb045,
-  //   #fd1d1d,
-  //   #833ab4
-  // ); 
-  background: #1f4037;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.landingGrid {
+  background: #1f4037; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #99f2c8,
+    #1f4037
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   position: fixed;
@@ -45,7 +25,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   height: 100%;
 }
 
-.avatar-img {
+.avatarImg {
   height: 250px;
   width: 250px;
   /* padding-top: 5em; */
@@ -53,7 +33,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   border-radius: 50%;
 }
 
-.banner-text {
+.bannerText {
   background-color: black;
   text-align: center;
   opacity: 0.8;
@@ -85,7 +65,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
     font-size: 17px;
   }
 
-  .social-links {
+  .socialLinks {
     display: flex;
     justify-content: space-between;
     width: 50%;
@@ -99,18 +79,16 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
 
     i:hover {
       transform: translateY(-5px) scale(1.2, 1.2);
-      
-      color: whitesmoke;
     }
   }
 }
 
-.projects-grid {
+.projectsGrid {
   display: flex;
   justify-content: space-between;
 }
 
-.contact-body {
+.contactBody {
   margin: auto;
   position: fixed;
   width: 100%;
@@ -118,7 +96,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   justify-content: center;
   padding-top: 2em;
 
-  .contact-grid {
+  .contactGrid {
     text-align: center;
     justify-content: center;
     width: 80%;
@@ -132,7 +110,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
     }
 
     p {
-      font-family: "Oxygen", sans-serif;
+      font-family: 'Oxygen', sans-serif;
       font-weight: bold;
     }
 
@@ -142,9 +120,27 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
       margin: auto;
     }
 
-    .contact-list i {
-      font-size: 66px;
-      padding-right: 5rem;
+    .contactList {
+      i {
+        font-size: 66px;
+        padding-right: 5rem;
+      }
     }
+  }
+}
+
+.gallery {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 50px;
+  }
+
+  hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
   }
 }

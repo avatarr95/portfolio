@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Grid, Cell } from 'react-mdl';
 import PiotrImage from '../assets/images/Pjoter1.jpg';
+import styles from "../App.module.scss";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -10,22 +11,22 @@ const Wrapper = styled.div`
 
 const Landing = () => (
   <Wrapper>
-    <Grid className="landing-grid">
+    <Grid className={styles.landingGrid}>
       <Cell col={12}>
-        <img src={PiotrImage} alt="avatar" className="avatar-img" />
+        <img src={PiotrImage} alt="avatar" className={styles.avatarImg} />
 
-        <div className="banner-text">
+        <div className={styles.bannerText}>
           <h1>Full Stack Web Developer</h1>
           <hr />
 
-          <p className="technologies">
+          <p className={styles.technologies}>
             Python | Django + Rest Framework | HTML/CSS | Redis | PostgreSQL{' '}
           </p>
-          <p className="basics">
+          <p className={styles.basics}>
             Basics: Celery | Selenium | ReactJS | jQuery | AJAX | Bootstrap | Regex{' '}
           </p>
 
-          <div className="social-links">
+          <div className={styles.socialLinks}>
             {/* Linked In */}
             <a
               href="https://www.linkedin.com/in/piotrzawierucha95/"

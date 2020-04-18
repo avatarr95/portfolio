@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { NavLink, useLocation } from 'react-router-dom';
-import './App.scss';
+import styles from './App.module.scss';
 class App extends Component {
   getLocation = () => {
     const location = useLocation();
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Home" href="/" scroll>
+          <Header className={styles.headerColor} title="Piotr Zawierucha" scroll>
             <Navigation>
               <NavLink exact to="/">
                 Home

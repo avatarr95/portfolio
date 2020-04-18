@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Grid, Cell, List, ListItem, ListItemContent} from "react-mdl";
 import styled from "styled-components";
 import AvatarImage from "../assets/images/ym.jpg";
+import styles from "../App.module.scss";
 
 const Paragraph = styled.p`
     width: 75%;
@@ -12,8 +13,8 @@ const Paragraph = styled.p`
 class Contact extends Component {
     render() {
         return (
-            <div className="contact-body">
-                <Grid className="contact-grid">
+            <div className={styles.contactBody}>
+                <Grid className={styles.contactGrid}>
                     <Cell col={6}>
                         <h2>Piotr Zawierucha</h2>
                         <img 
@@ -30,21 +31,21 @@ class Contact extends Component {
                             Contact Me
                         </h2>
                         <hr />
-                        <div className="contact-list">
+                        <div className={styles.contactList}>
                             <List>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: 30, fontFamily: "Anton"}}>
-                                        <i className="fa fa-phone-square" aria-hidden="true"/>123456789
+                                        <i className="fa fa-phone-square" aria-hidden="true"/> +48 503 631 026
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: 30, fontFamily: "Anton"}}>
-                                        <i className="fa fa-fax" aria-hidden="true"/>123456789
+                                        <i className="fa fa-envelope" aria-hidden="true"/>piotrzawierucha95@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: 30, fontFamily: "Anton"}}>
-                                        <i className="fa fa-envelope" aria-hidden="true"/>www@www.com
+                                        <i className="fa fa-facebook-square" aria-hidden="true"/>facebook.com/pzawierucha
                                     </ListItemContent>
                                 </ListItem>
                              
