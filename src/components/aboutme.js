@@ -22,15 +22,15 @@ const AboutMe = () => (
           style={{ height: '250px' }}
         />
         <Paragraph>
-          I am a 25 yo. I am s self taught Web Developer with the specialisation of Django and
-          currently learning React. I have written a several projects such as social website for
-          football fans with the registration/login, post, comment and like system using: Django,
-          HTML5/CSS3 + CSS Grid, jQuery, AJAX, PostgreSQL and Python, a Resume Builder, which uses a
-          Redis database and WeasyPrint to download Resume in pdf format, a couple of scripts and
-          bots in Python (job projects are not included) and some React apps (such as this website
-          :)). The code is open for everyone (check Github). I am interested in chess, soccer,
-          forex, economy and innovation technologies, books and physiotheraphy. Feel free to ask me
-          any questions (click the "Contact" tab for more).
+          I am a 25 yo self taught Web Developer with the specialisation of Django and currently
+          learning React. I have written a several projects such as social website for football fans
+          with the registration/login, post, comment and like system using: Django, HTML5/CSS3 + CSS
+          Grid, jQuery, AJAX, PostgreSQL and Python, a Resume Builder, which uses a Redis database
+          and WeasyPrint to download Resume in pdf format, a couple of scripts and bots in Python
+          (job projects are not included) and some React apps (such as this website :)). The code is
+          open for everyone (check Github). I am interested in chess, soccer, forex, economy and
+          innovation technologies, books and physiotheraphy. Feel free to ask me any questions
+          (click the "Contact" tab for more).
         </Paragraph>
       </Cell>
     </Grid>
