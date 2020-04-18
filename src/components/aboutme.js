@@ -22,7 +22,7 @@ const AboutMe = () => (
           style={{ height: '250px' }}
         />
         <Paragraph>
-          I am a 25 yo. I am s self learn Web Developer with the specialisation of Django and
+          I am a 25 yo. I am s self taught Web Developer with the specialisation of Django and
           currently learning React. I have written a several projects such as social website for
           football fans with the registration/login, post, comment and like system using: Django,
           HTML5/CSS3 + CSS Grid, jQuery, AJAX, PostgreSQL and Python, a Resume Builder, which uses a
