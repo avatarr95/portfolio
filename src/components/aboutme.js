@@ -27,7 +27,7 @@ const AboutMe = () => (
           with the registration/login, post, comment and like system using: Django, HTML5/CSS3 + CSS
           Grid, jQuery, AJAX, PostgreSQL and Python, a Resume Builder, which uses a Redis database
           and WeasyPrint to download Resume in pdf format, a couple of scripts and bots in Python
-          (job projects are not included) and some React apps (such as this website :)). The code is
+          (job projects are not included) and several React apps (such as this website :)). The code is
           open for everyone (check Github). I am interested in chess, soccer, forex, economy and
           innovation technologies, books and physiotheraphy. Feel free to ask me any questions
           (click the "Contact" tab for more).
