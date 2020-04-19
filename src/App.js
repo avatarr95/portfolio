@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className={styles.headerColor} title="Piotr Zawierucha" scroll>
+          <Header className={styles.headerColor} scroll>
             <Navigation>
               <NavLink exact to="/">
                 Home
