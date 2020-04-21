@@ -7,6 +7,7 @@ import ResumeImage from '../assets/images/Hired.png';
 import PythonImage from '../assets/images/python.jpg';
 import ReduxImage from '../assets/images/redux.jpg';
 import ReactImage from '../assets/images/react_logo.jpg';
+import BlogImage from '../assets/images/blog.jpg';
 
 class Projects extends Component {
   state = { activeTab: 0, activePhoto: 0 };
@@ -62,6 +63,12 @@ class Projects extends Component {
             'A social website with authentication, post, comment and like system implemented',
           link: 'https://github.com/avatarr95/Full-Social-Website-for-Football-Fans',
           image: SoccerImage,
+        },
+        {
+          name: 'Simple Blog',
+          description: 'A simple blog build with Django, Python, HTML/CSS',
+          link: 'https://github.com/avatarr95/SimpleBlog/',
+          image: BlogImage,
         },
       ];
 
