@@ -3,6 +3,8 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { NavLink, useLocation } from 'react-router-dom';
 import styles from './App.module.scss';
+import './index.css';
+
 class App extends Component {
   getLocation = () => {
     const location = useLocation();

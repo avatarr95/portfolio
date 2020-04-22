@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Grid, Cell } from 'react-mdl';
 import PiotrImage from '../assets/images/Pjoter1.jpg';
-import styles from "../App.module.scss";
+import styles from '../App.module.scss';
 
 const Wrapper = styled.div`
   width: 100%;
