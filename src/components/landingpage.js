@@ -10,8 +10,8 @@ const Wrapper = styled.div`
 `;
 
 const Landing = () => (
-  <Wrapper>
-    <Grid className={styles.landingGrid}>
+  <Wrapper className={styles.landingGrid}>
+    <Grid>
       <Cell col={12}>
         <img src={PiotrImage} alt="avatar" className={styles.avatarImg} />
 
