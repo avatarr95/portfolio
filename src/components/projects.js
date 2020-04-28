@@ -15,7 +15,7 @@ class Projects extends Component {
 
   fillTheData = (projectDict) => {
     const filledData = [...projectDict].map((project) => (
-      <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+      <Card shadow={5} style={{ minWidth: '450', margin: 'auto', width: 350 }}>
         <CardTitle
           style={{
             color: '#fff',

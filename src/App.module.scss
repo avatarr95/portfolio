@@ -83,7 +83,11 @@
 }
 
 .projectsGrid {
-  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
 }
 
