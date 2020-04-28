@@ -9,6 +9,12 @@ import soccerImage8 from '../assets/images/ProjectsImages/8.jpg';
 import ResumeImage1 from '../assets/images/ProjectsImages/9.jpg';
 import ResumeImage3 from '../assets/images/ProjectsImages/11.jpg';
 import ResumeImage4 from '../assets/images/ProjectsImages/12.jpg';
+import EbarterImage1 from '../assets/images/ProjectsImages/14.jpg';
+import EbarterImage2 from '../assets/images/ProjectsImages/15.jpg';
+import EbarterImage3 from '../assets/images/ProjectsImages/16.jpg';
+import EbarterImage4 from '../assets/images/ProjectsImages/17.jpg';
+import EbarterImage5 from '../assets/images/ProjectsImages/18.jpg';
+import EbarterImage6 from '../assets/images/ProjectsImages/19.jpg';
 
 const ImageCard = styled.div`
   height: 100px;
@@ -25,6 +31,12 @@ const ImageCard = styled.div`
 `;
 
 export const Images = [
+  EbarterImage3,
+  EbarterImage1,
+  EbarterImage2,
+  EbarterImage4,
+  EbarterImage5,
+  EbarterImage6,
   soccerImage1,
   soccerImage2,
   soccerImage3,

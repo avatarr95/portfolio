@@ -8,6 +8,7 @@ import PythonImage from '../assets/images/python.jpg';
 import ReduxImage from '../assets/images/redux.jpg';
 import ReactImage from '../assets/images/react_logo.jpg';
 import BlogImage from '../assets/images/blog.jpg';
+import EbarterImage from '../assets/images/ebarter.jpg';
 
 class Projects extends Component {
   state = { activeTab: 0, activePhoto: 0 };
@@ -50,6 +51,12 @@ class Projects extends Component {
   toggleCategories = () => {
     if (this.state.activeTab === 0) {
       const DjangoProjects = [
+        {
+          name: 'eBarter',
+          description: 'An OLX like marketplace for barter transactions',
+          link: 'https://github.com/avatarr95/ebarter',
+          image: EbarterImage,
+        },
         {
           name: 'Resume Builder',
           description:
@@ -145,7 +152,11 @@ class Projects extends Component {
             <Gallery changePhotoFn={this.changeDisplayedPhoto} />
           </Cell>
           <Cell col={6} style={{ textAlign: 'center' }}>
-            <img style={{ maxWidth: 700, maxHeight: 500 }} src={Images[this.state.activePhoto]} />
+            <img
+              style={{ maxWidth: 700, maxHeight: 500 }}
+              src={Images[this.state.activePhoto]}
+              alt="images"
+            />
           </Cell>
         </Grid>
       </div>
